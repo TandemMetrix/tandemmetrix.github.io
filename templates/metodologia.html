@@ -1,11 +1,49 @@
+
 <!-- templates/metodologia.html - Página Metodologia Tandem Metrix -->
-{% extends "base.html" %}
+<!-- templates/base.html - Template base para todas las páginas -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologia - Tandem Metrix</title>
+    <meta name="description" content="La metodología se basa en la conexión entre el trabajo colaborativo y la medición continua.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/corporate_style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">Tandem Metrix</a>
+                <nav>
+                    <ul>
+                        <li><a href="/" >Inicio</a></li>
+                        <li><a href="/quienes-somos" >Quiénes Somos</a></li>
+                        <li><a href="/metodologia" class="active">Metodología</a></li>
+                        <li><a href="/casos-exito" >Casos de Éxito</a></li>
+                        <li><a href="/contacto" >Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-{% block title %}Metodologia - Tandem Metrix{% endblock %}
+    <!-- Contenido principal -->
+    <main>
+        <!-- Mostrar mensajes flash -->
+        
+            
+        
 
-{% block description %}La metodología se basa en la conexión entre el trabajo colaborativo y la medición continua.{% endblock %}
-
-{% block content %}
+        
     <!-- Encabezado tomado de quienes_somos.html -->
     <section class="hero">
         <div class="container">
@@ -113,4 +151,40 @@
             });
         });
     </script>
-{% endblock %}
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Tandem Metrix</h3>
+                    <p>Transformamos tu visión en resultados tangibles mediante la colaboración de equipos y la precisión de los datos.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Servicios</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="/metodologia">Diagnóstico Organizacional</a></li>
+                        <li><a href="/metodologia">Planificación Estratégica</a></li>
+                        <li><a href="/metodologia">Implementación y Seguimiento</a></li>
+                        <li><a href="/metodologia">Evaluación de Satisfacción</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: contacto@tandemmetrix.com</p>
+                    <p>LinkedIn: /company/tandem-metrix</p>
+                    <p>Santiago, Chile</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tandem Metrix. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript opcional -->
+    
+</body>
+</html>
