@@ -1,0 +1,194 @@
+<!-- templates/quienes_somos.html - Página Quiénes Somos -->
+{% extends "base.html" %}
+
+{% block title %}Quiénes Somos - Tandem Metrix{% endblock %}
+
+{% block description %}Conoce la filosofía, misión y visión de Tandem Metrix. Descubre cómo combinamos el poder del Tandem y Metrix para crear ciclos de mejora continua.{% endblock %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Quiénes Somos</h1>
+            <p class="subtitle">Conoce la filosofía y visión detrás de Tandem Metrix</p>
+        </div>
+    </section>
+
+    <!-- Nuestra Filosofía -->
+    <section class="section-alt">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Nuestra Filosofía: La Visión Tandem Metrix</h2>
+            
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto; color: var(--ebony);">
+                    En Tandem Metrix, vemos los negocios a través de dos lentes complementarios que, cuando se combinan, 
+                    crean un ciclo infinito de mejora y crecimiento.
+                </p>
+            </div>
+
+            <!-- Diagrama de los dos pilares -->
+            <div class="methodology-grid" style="margin: 3rem 0;">
+                <div class="methodology-card" style="background: linear-gradient(135deg, var(--dark-cyan), var(--persian-green)); color: white;">
+                    <h3 style="color: white;">🤝 TANDEM: El Pilar Humano</h3>
+                    <p style="color: white; opacity: 0.95;">
+                        Creemos profundamente en la <strong>co-creación y el poder del equipo</strong>. 
+                        Las mejores soluciones surgen cuando las personas trabajan juntas, combinando 
+                        sus perspectivas, experiencias y talentos únicos hacia un objetivo común.
+                    </p>
+                    <ul style="color: white; opacity: 0.9; text-align: left; margin-top: 1rem;">
+                        <li>Colaboración auténtica</li>
+                        <li>Participación activa de todos los niveles</li>
+                        <li>Construcción de consensos</li>
+                        <li>Fortalecimiento de la cultura organizacional</li>
+                    </ul>
+                </div>
+
+                <div class="methodology-card" style="background: linear-gradient(135deg, var(--persian-green), var(--yellow-green)); color: white;">
+                    <h3 style="color: white;">📊 METRIX: El Pilar Analítico</h3>
+                    <p style="color: white; opacity: 0.95;">
+                        Las <strong>decisiones deben basarse en datos claros y medibles</strong>. 
+                        Sin métricas precisas y análisis riguroso, es imposible saber si estamos 
+                        avanzando en la dirección correcta o evaluar el impacto real de nuestras acciones.
+                    </p>
+                    <ul style="color: white; opacity: 0.9; text-align: left; margin-top: 1rem;">
+                        <li>Métricas claras y relevantes</li>
+                        <li>Análisis basado en evidencia</li>
+                        <li>Seguimiento continuo del progreso</li>
+                        <li>Toma de decisiones informada</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- El Infinito -->
+            <div style="background: var(--seasalt); padding: 2rem; border-radius: 15px; margin: 3rem 0;">
+                <h3 style="text-align: center; color: var(--dark-cyan);">♾️ El Infinito: Mejora Continua</h3>
+                <p style="text-align: center; font-size: 1.1rem; max-width: 700px; margin: 1rem auto;">
+                    La magia ocurre cuando <strong>Tandem</strong> y <strong>Metrix</strong> se encuentran. 
+                    Esta combinación crea un ciclo infinito donde la colaboración humana alimenta mejores datos, 
+                    y los datos precisos facilitan una colaboración más efectiva, generando una espiral ascendente 
+                    de mejora continua.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Misión y Visión -->
+    <section>
+        <div class="container">
+            <div class="methodology-grid">
+                <div class="methodology-card" style="border-left: 5px solid var(--dark-cyan);">
+                    <h3>🎯 Nuestra Misión</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.7;">
+                        <strong>Empoderar a las organizaciones</strong> para que transformen sus visiones estratégicas 
+                        en resultados tangibles, mediante el desarrollo de capacidades colaborativas 
+                        y sistemas de medición que generen valor sostenible para todos los stakeholders.
+                    </p>
+                </div>
+
+                <div class="methodology-card" style="border-left: 5px solid var(--persian-green);">
+                    <h3>🌟 Nuestra Visión</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.7;">
+                        <strong>Ser la consultora de referencia</strong> en Latinoamérica para organizaciones 
+                        que buscan conectar auténticamente su estrategia con la ejecución, 
+                        creando culturas de mejora continua basadas en la colaboración y los datos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- El Fundador -->
+    <section class="section-alt">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Conoce a Nuestro Fundador</h2>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="methodology-card" style="text-align: center;">
+                    <div style="width: 150px; height: 150px; background: linear-gradient(135deg, var(--dark-cyan), var(--persian-green)); border-radius: 50%; margin: 0 auto 2rem; display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem; font-weight: bold;">
+                        S
+                    </div>
+                    <h3>Santiago - Founder & CEO</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.7; text-align: left; margin-top: 2rem;">
+                        Con más de [X años] de experiencia en consultoría estratégica y transformación organizacional, 
+                        Santiago ha dedicado su carrera a entender cómo las organizaciones pueden cerrar la brecha 
+                        entre la planificación y la ejecución.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.7; text-align: left;">
+                        Su pasión por combinar el desarrollo humano con la rigurosidad analítica lo llevó a crear 
+                        la metodología Tandem Metrix, un enfoque integral que ha ayudado a decenas de organizaciones 
+                        a transformar sus visiones en resultados medibles.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.7; text-align: left;">
+                        Santiago cree firmemente que <strong>"Las mejores estrategias son aquellas que logran emocionalmente 
+                        conectar con las personas y técnicamente medirse con precisión"</strong>.
+                    </p>
+
+                    <div style="margin-top: 2rem; padding: 1.5rem; background: var(--seasalt); border-radius: 10px;">
+                        <h4>Especialidades:</h4>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                            <div>• Estrategia Corporativa</div>
+                            <div>• Transformación Organizacional</div>
+                            <div>• Desarrollo de KPIs</div>
+                            <div>• Facilitación de Equipos</div>
+                            <div>• Change Management</div>
+                            <div>• Cultura Organizacional</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuestros Valores -->
+    <section>
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Nuestros Valores</h2>
+            
+            <div class="methodology-grid">
+                <div class="methodology-card" style="border-left: 5px solid var(--yellow-green);">
+                    <h3>🤝 Colaboración Auténtica</h3>
+                    <p>Creemos que las mejores soluciones surgen del trabajo conjunto, donde cada voz importa y contribuye al resultado final.</p>
+                </div>
+
+                <div class="methodology-card" style="border-left: 5px solid var(--dark-cyan);">
+                    <h3>📊 Rigor Analítico</h3>
+                    <p>Basamos nuestras recomendaciones en datos sólidos y análisis profundos, no en intuiciones o tendencias pasajeras.</p>
+                </div>
+
+                <div class="methodology-card" style="border-left: 5px solid var(--persian-green);">
+                    <h3>🎯 Orientación a Resultados</h3>
+                    <p>Nos comprometemos con la generación de valor tangible y medible para nuestros clientes y sus stakeholders.</p>
+                </div>
+
+                <div class="methodology-card" style="border-left: 5px solid var(--desert-sand); border-left-color: #d4a574;">
+                    <h3>♾️ Mejora Continua</h3>
+                    <p>Vemos cada proyecto como una oportunidad de aprender, mejorar y perfeccionar nuestras metodologías.</p>
+                </div>
+
+                <div class="methodology-card" style="border-left: 5px solid var(--ash-gray);">
+                    <h3>💝 Bienestar Integral</h3>
+                    <p>Valoramos tanto los resultados empresariales como el bienestar y desarrollo de las personas involucradas.</p>
+                </div>
+
+                <div class="methodology-card" style="border-left: 5px solid var(--ebony);">
+                    <h3>🌱 Sostenibilidad</h3>
+                    <p>Buscamos generar cambios sostenibles en el tiempo que fortalezcan la organización a largo plazo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="hero" style="padding: 3rem 0;">
+        <div class="container">
+            <h2 style="color: white;">¿Quieres Conocer Más Sobre Nuestra Metodología?</h2>
+            <p style="color: white; opacity: 0.9; margin-bottom: 2rem;">
+                Descubre cómo aplicamos la filosofía Tandem Metrix en proyectos reales.
+            </p>
+            <div>
+                <a href="{{ url_for('metodologia') }}" class="btn btn-primary">Ver Nuestra Metodología</a>
+                <a href="{{ url_for('contacto') }}" class="btn btn-secondary" style="margin-left: 1rem;">Conversemos</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}
